@@ -3,3 +3,71 @@ body {
   height: 100%;
   margin: 0;
 }
+/* Center the header text */
+h1 {
+  text-align: center;
+}
+
+/* Center the image */
+img {
+  display: block;
+  margin: 0 auto; /* Centers the image */
+}
+
+/* Style the navigation links */
+nav a {
+  padding: 10px; /* Add padding to the left and right */
+  background-color: grey; /* Change background color */
+  text-align: center; /* Center the text */
+  display: inline-block; /* Make links inline-block for padding to work */
+}
+
+/* Center the image caption and reduce font size */
+figcaption {
+  text-align: center;
+  font-size: 0.8em; /* Adjust font size */
+}
+
+/* Center the text block in #featured-property */
+#featured-property p {
+  width: 800px; /* Set a fixed width */
+  margin: 0 auto; /* Center the text block */
+  text-align: center; /* Center the text */
+  padding: 10px 0; /* Add vertical space */
+}
+
+/* Make the #details section horizontal */
+#details div {
+  float: left; /* Float divs to the left */
+  width: 24%; /* Adjust width to fit four divs in a row */
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Style the bottom divs */
+#footer {
+  clear: both; /* Clear floats */
+  overflow: hidden; /* Clearfix for floated children */
+}
+
+#footer div {
+  padding: 45px;
+  background-color: rgb(224, 44, 44); /* Set background color */
+  text-align: center; /* Center the text */
+  width: 25%; /* Each div occupies 25% of the width */
+  float: left; /* Float divs to the left */
+  box-sizing: border-box;
+border-bottom: 2px solid #ecf0f1;
+padding: 10px;
+flex: 1;
+min-width: 200px;
+padding-bottom: 10;
+
+
+}
+#footer-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
